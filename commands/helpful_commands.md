@@ -30,6 +30,6 @@ When you are working as a user within a cluster that uses slurm for job manageme
 
 `srun` - Sends your command to the cluster through slurm
 
-`sbatch` - Sends your script to the cluster and enables more parameters. You will get a job ID out of this, along with a `slurm-jobid.out` file after it's finished.
+`sbatch` - Sends your script to the cluster and enables more parameters. You will get a job ID out of this, along with a `slurm-jobid.out` file while the job runs.
 
   - `sbatch --job-name="MyJob"`
