@@ -27,3 +27,9 @@ When you are working as a user within a cluster that uses slurm for job manageme
 `sinfo` - Shows you all available nodes in that cluster and their state.
 
 `squeue` - Shows you all jobs in progress on those nodes.
+
+`srun` - Sends your command to the cluster through slurm
+
+`sbatch` - Sends your script to the cluster and enables more parameters.
+
+  - `sbatch --job-name="MyJob"`
