@@ -16,6 +16,7 @@ This is a super useful Linux tool you can use to run programs in the backgound. 
 
 
 ### Long job runner
-This command lets you start a long-running job and output the logs of that job both to the terminal bash for you to see it during your session, and to the log file you define here.
+This command lets you start a long-running job and output the logs of that job both to the terminal bash for you to see it during your session, and to the log file you define here. I use this for most bigger compile or sharding runs.
+
 `SomeCommand 2>&1 | tee SomeFile.txt`
  
