@@ -41,3 +41,5 @@ pip install environment_kernels
 # Install wget, awscli 
 python -m pip install wget 
 python -m pip install awscli
+
+# install Neuron pip packages
